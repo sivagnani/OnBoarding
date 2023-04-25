@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "on-bording-form-client-side-solution",
+    "id": "d012120d-9031-4079-bccf-e2ddba45b476",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "on-bording-form description"
+      },
+      "longDescription": {
+        "default": "on-bording-form description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "on-bording-form Feature",
+        "description": "The feature that activates elements of the on-bording-form solution.",
+        "id": "55f166be-6f94-44aa-bb74-df2f584d5361",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/on-bording-form.sppkg"
+  }
+}

@@ -1,0 +1,52 @@
+.div-formSectionHeader {
+    margin: 16px 0px 10px;
+}
+
+.div-formSectionHeader h3 {
+    font-size: 24px !important;
+    font-weight: 500;
+    line-height: 1.4;
+
+}
+
+.div-formSection {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F0F0F0;
+}
+
+
+.control-label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.checkbox-inline,
+.radio-inline {
+    position: relative;
+    display: inline-flex;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.astericks {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.start-date div .ms-TextField-wrapper .ms-TextField-fieldGroup {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da
+}
+input:hover{
+    border-color: #98d6d8;
+}
+/* .start-date div input {
+    border: 1px solid;
+    border-radius: 0.25rem;
+    border-color: #dc3545 !important;
+} */

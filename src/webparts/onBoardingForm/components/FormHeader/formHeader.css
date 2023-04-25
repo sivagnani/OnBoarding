@@ -1,0 +1,14 @@
+.formHeader{
+    line-height: 1.4;
+    color: #03787c;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}

@@ -1,0 +1,20 @@
+.formHeaderIcon {
+    font-size: 14px;
+    color: #0072C6;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.formSection {
+    opacity: 0;
+    width: 0%;
+    height: 0%;
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+  }
+  .formSection.active {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease-in;
+  }
