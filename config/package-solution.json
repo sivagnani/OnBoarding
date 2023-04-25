@@ -3,7 +3,7 @@
   "solution": {
     "name": "on-bording-form-client-side-solution",
     "id": "d012120d-9031-4079-bccf-e2ddba45b476",
-    "version": "1.0.0.0",
+    "version": "1.0.0.2",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -30,7 +30,7 @@
         "title": "on-bording-form Feature",
         "description": "The feature that activates elements of the on-bording-form solution.",
         "id": "55f166be-6f94-44aa-bb74-df2f584d5361",
-        "version": "1.0.0.0"
+        "version": "1.0.0.2"
       }
     ]
   },

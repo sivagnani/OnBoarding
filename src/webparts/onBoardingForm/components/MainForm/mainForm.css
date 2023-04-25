@@ -38,15 +38,44 @@
     font-weight: bolder;
 }
 
-.start-date div .ms-TextField-wrapper .ms-TextField-fieldGroup {
+.ms-DatePicker .ms-TextField-wrapper .ms-TextField-fieldGroup {
     border-radius: 0.25rem;
     border: 1px solid #ced4da
 }
 input:hover{
     border-color: #98d6d8;
 }
-/* .start-date div input {
+.start-date-danger div input {
     border: 1px solid;
     border-radius: 0.25rem;
     border-color: #dc3545 !important;
-} */
+}
+.start-date-danger div i{
+    color: #dc3545;
+}
+.start-date-success div input {
+    border: 1px solid;
+    border-radius: 0.25rem;
+    border-color: #28a745!important;
+}
+.start-date-success div i{
+    color: #28a745;
+}
+.ms-BasePicker-text{
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    background-color: white;
+}
+.people-danger .ms-BasePicker-text{
+    border: 1px solid;
+    border-radius: 0.25rem;
+    border-color: #dc3545!important;
+}
+.people-success .ms-BasePicker-text {
+    border: 1px solid;
+    border-radius: 0.25rem;
+    border-color: #28a745!important;
+}
+.ms-BasePicker-text::after {
+    border: unset;
+}

@@ -16,11 +16,11 @@ export default class ApplicationOrHardwareRequest extends React.Component<IAppli
     render(): React.ReactNode {
         return (
             <div className="row">
-                <div className='div-formSectionHeader d-flex align-items-center cursor-pointer col-12 p-0' onClick={()=>this.toggleFormSection()}>
+                <div className='div-formSectionHeader d-flex align-items-center cursor-pointer p-0' onClick={()=>this.toggleFormSection()}>
                     <Icon iconName={this.state.showForm?"TriangleSolidDown12":"TriangleSolidRight12"} className="formHeaderIcon"/>
                     <h3 className="ml-2">Application / Hardware Request</h3>
                 </div>
-                <div className={`formSection ${this.state.showForm?"active div-formSection pl-3 pr-4":""}`}>
+                <div className={`formSection ${this.state.showForm?"active div-formSection pl-3 pr-4 col-11":""}`}>
                     <p className="mb-4">For Hardware, Systems Access, or Software needs, please use the appropriate form: </p>
                     <a href="https://interxion.service-now.com/esc?id=sc_cat_item&amp;sys_id=655757704faef6c0a3b1bc218110c790" 
                     target="_blank" className="text-primary mb-1 d-block">Hardware request form</a>

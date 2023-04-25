@@ -179,9 +179,9 @@ export default class MainForm extends React.Component<IMainFormProps, IMainFormS
     }
     render(): React.ReactNode {
         return (
-            <div>
-                <div className='div-formSectionHeader ml-2 mt-4 mb-2'><h3>Requesting For</h3></div>
-                <div className='row div-formSection'>
+            <div className="row">
+                <div className='div-formSectionHeader col-11 ml-2 mt-4 mb-2'><h3>Requesting For</h3></div>
+                <div className='col-11 div-formSection'>
                     <div className='col-xs-12 col-sm-12 col-md-10'>
                         <div className="row mb-3">
                             <label htmlFor='divNewHireOrTransfer' className='control-label col-xs-12 col-sm-3 col-md-3'>New Hire (or) Transfer</label>
@@ -240,7 +240,7 @@ export default class MainForm extends React.Component<IMainFormProps, IMainFormS
                                 </div>
                             </div>
                         }
-                        <div className='row mb-2 start-date'>
+                        <div className={`row mb-2 ${this.props.isSubmitClicked?this.props.formErrors.startDateError?"start-date-danger":"start-date-success":""}`}>
                             <label className={`control-label col-xs-12 col-sm-3 col-md-3 ${this.props.isSubmitClicked ? this.props.formErrors.startDateError ? "text-danger" : "text-success" : ""}`}>Start Date</label>
                             <div className="col-xs-12 col-sm-8 col-md-8 pr-2 border-primary start-date-inner">
                                 <DateTimePicker showLabels={false}
@@ -337,8 +337,9 @@ export default class MainForm extends React.Component<IMainFormProps, IMainFormS
                             <label
                                 className={`control-label col-xs-12 col-sm-3 col-md-3 ${this.props.isSubmitClicked ? this.props.formErrors.personError ? "text-danger" : "text-success" : ""}`}
                             >Manager</label>
-                            <div className="col-xs-11 col-sm-8 col-md-8 pr-2">
+                            <div className={`col-xs-11 col-sm-8 col-md-8 pr-2 ${this.props.isSubmitClicked ? this.props.formErrors.personError ? "people-danger" : "people-success" : ""}`}>
                                 <PeoplePicker
+                                    placeholder="Enter a name or email address..."
                                     context={this.props.context as any}
                                     personSelectionLimit={1}
                                     principalTypes={[PrincipalType.User]}
